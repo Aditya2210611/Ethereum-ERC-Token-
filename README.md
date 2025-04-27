@@ -31,3 +31,20 @@ A decentralized application (DApp) for conducting an Initial Coin Offering (ICO)
 ```bash
 git clone <your-repository-url>
 cd dapp-token-sale
+
+2. Install dependencies:
+bash
+npm install
+
+
+3. Start Ganache and ensure it's running on port 7545
+
+4. Compile and migrate the smart contracts:
+bash
+truffle compile
+truffle migrate --reset
+
+
+5. Start the development server:
+bash
+npm run dev
